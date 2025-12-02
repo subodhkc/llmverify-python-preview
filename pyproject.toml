@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmcheck"
+version = "0.0.1"
+description = "LLM Hallucination & Drift Detection — Verify LLM outputs for accuracy, consistency, and reliability"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Haiec", email = "contact@haiec.com"}
+]
+maintainers = [
+    {name = "Haiec", email = "contact@haiec.com"}
+]
+keywords = [
+    "llm",
+    "llmcheck",
+    "hallucination",
+    "drift detection",
+    "ai validation",
+    "gpt check",
+    "chatgpt",
+    "claude",
+    "llm accuracy",
+    "llm reliability",
+    "llm testing",
+    "llm monitoring",
+    "model drift",
+    "llmops",
+    "ai governance"
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Quality Assurance"
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://haiec.com"
+Repository = "https://github.com/haiec/llmcheck"
+Documentation = "https://github.com/haiec/llmcheck#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
