@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llmcheck"
+name = "llmverify"
 version = "0.0.1"
 description = "LLM Hallucination & Drift Detection — Verify LLM outputs for accuracy, consistency, and reliability"
 readme = "README.md"
@@ -16,7 +16,8 @@ maintainers = [
 ]
 keywords = [
     "llm",
-    "llmcheck",
+    "llmverify",
+    "llm verify",
     "hallucination",
     "drift detection",
     "ai validation",
@@ -50,8 +51,8 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://haiec.com"
-Repository = "https://github.com/haiec/llmcheck"
-Documentation = "https://github.com/haiec/llmcheck#readme"
+Repository = "https://github.com/subodhkc/llmverify"
+Documentation = "https://github.com/subodhkc/llmverify#readme"
 
 [tool.setuptools.packages.find]
 where = ["src"]

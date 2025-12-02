@@ -22,7 +22,7 @@ This package is being developed by [Haiec](https://haiec.com) as part of a broad
 
 ## Why This Namespace Exists
 
-The `llmcheck` namespace is reserved to provide developers with essential LLM quality assurance tools. As LLMs become critical infrastructure, verifying their outputs is non-negotiable.
+The `llmverify` namespace is reserved to provide developers with essential LLM quality assurance tools. As LLMs become critical infrastructure, verifying their outputs is non-negotiable.
 
 This package will provide:
 

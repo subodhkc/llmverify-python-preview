@@ -28,7 +28,7 @@ def detect_hallucination(output: str, context: str) -> dict:
     return {
         "score": None,
         "hallucinated": None,
-        "message": "LLMCheck is under development. Hallucination detection coming soon."
+        "message": "LLMVerify is under development. Hallucination detection coming soon."
     }
 
 
@@ -58,5 +58,5 @@ def init() -> dict:
     """
     return {
         "initialized": False,
-        "message": "LLMCheck package is under development. Full features coming soon."
+        "message": "LLMVerify package is under development. Full features coming soon."
     }
