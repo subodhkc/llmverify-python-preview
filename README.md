@@ -1,8 +1,16 @@
 # LLMCheck
 
-> **LLM Hallucination & Drift Detection** — Coming Soon
+> **LLM Hallucination & Drift Detection** - Coming Soon
 
 A Python toolkit to verify LLM outputs for hallucinations, factual accuracy, and model drift over time.
+
+---
+
+## Links
+
+- **Product Page:** [subodhkc.com/products/llmverify](https://subodhkc.com/products/llmverify)
+- **npm Package:** [github.com/subodhkc/llmverify-npm](https://github.com/subodhkc/llmverify-npm)
+- **Author:** [Subodh KC](https://subodhkc.com) - AI governance, compliance, and security leader
 
 ---
 
@@ -48,18 +56,15 @@ pip install llmcheck
 ```python
 import llmcheck
 
-# Check package status
 print(llmcheck.__version__)  # '0.0.1'
 print(llmcheck.__status__)   # 'placeholder'
 
-# Detect hallucination (placeholder)
 result = llmcheck.detect_hallucination(
     output="LLM generated this output",
     context="Original source context"
 )
 print(result["message"])
 
-# Detect drift (placeholder)
 drift_result = llmcheck.detect_drift([
     "output from day 1",
     "output from day 2",
@@ -86,7 +91,7 @@ print(drift_result["message"])
 
 ## License
 
-MIT © 2025 Haiec
+MIT (c) 2025 Haiec
 
 ---
 
