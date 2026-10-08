@@ -1,5 +1,5 @@
 """
-LLMCheck — LLM Hallucination & Drift Detection
+LLMVerify — LLM Hallucination & Drift Detection
 
 Verify LLM outputs for accuracy, consistency, and reliability.
 Reserved for HAIEC AI Compliance Engine.
@@ -45,7 +45,7 @@ def detect_drift(outputs: list) -> dict:
     return {
         "drift_score": None,
         "drifted": None,
-        "message": "LLMCheck is under development. Drift detection coming soon."
+        "message": "LLMVerify is under development. Drift detection coming soon."
     }
 
 

@@ -1,4 +1,4 @@
-# LLMCheck
+# LLMVerify
 
 > **LLM Hallucination & Drift Detection** - Coming Soon
 
@@ -16,7 +16,7 @@ A Python toolkit to verify LLM outputs for hallucinations, factual accuracy, and
 
 ## What This Package Is
 
-**LLMCheck** is an upcoming utility package designed to help developers:
+**LLMVerify** is an upcoming utility package designed to help developers:
 
 - **Detect hallucinations** in LLM-generated content
 - **Verify factual accuracy** against source documents
@@ -46,7 +46,7 @@ This package will provide:
 ## Installation
 
 ```bash
-pip install llmcheck
+pip install llmverify
 ```
 
 ---
@@ -54,18 +54,18 @@ pip install llmcheck
 ## Placeholder Example
 
 ```python
-import llmcheck
+import llmverify
 
-print(llmcheck.__version__)  # '0.0.1'
-print(llmcheck.__status__)   # 'placeholder'
+print(llmverify.__version__)  # '0.0.1'
+print(llmverify.__status__)   # 'placeholder'
 
-result = llmcheck.detect_hallucination(
+result = llmverify.detect_hallucination(
     output="LLM generated this output",
     context="Original source context"
 )
 print(result["message"])
 
-drift_result = llmcheck.detect_drift([
+drift_result = llmverify.detect_drift([
     "output from day 1",
     "output from day 2",
     "output from day 3"
