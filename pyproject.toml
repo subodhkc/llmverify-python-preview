@@ -51,8 +51,8 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://haiec.com"
-Repository = "https://github.com/subodhkc/llmverify"
-Documentation = "https://github.com/subodhkc/llmverify#readme"
+Repository = "https://github.com/subodhkc/llmverify-python-preview"
+Documentation = "https://github.com/subodhkc/llmverify-python-preview#readme"
 
 [tool.setuptools.packages.find]
 where = ["src"]

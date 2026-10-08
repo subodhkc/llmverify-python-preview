@@ -98,3 +98,6 @@ MIT (c) 2025 Haiec
 ## Contact
 
 For early access or partnership inquiries, reach out to the Haiec team.
+---
+
+Built by [Subodh Kc](https://subodhkc.com) — a [HAIEC](https://www.haiec.com) (Human AI Evidence Company) product.
